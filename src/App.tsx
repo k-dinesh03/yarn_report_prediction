@@ -1,4 +1,3 @@
-
 import Home from './screens/Home'
 
 const App = () => {

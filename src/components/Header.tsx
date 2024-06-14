@@ -2,7 +2,6 @@ import React from 'react';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 
-
 interface HeaderProps {
     clothColor: string;
     handleColorChange: (event: React.ChangeEvent<HTMLSelectElement>) => void;
