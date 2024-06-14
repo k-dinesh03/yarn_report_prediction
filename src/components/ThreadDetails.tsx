@@ -22,7 +22,7 @@ const ThreadDetails: React.FC<ThreadDetailsProps> = ({ data, pieces, getWeight }
                             <div className="h-[0.1px] w-full absolute -z-40 bg-slate-300" />
                             <div className="w-full flex flex-row justify-between h-9 px-[2px]">
                                 {item.threads.map((thread, index) => (
-                                    <ThreadItem key={index} thread={thread} totalWeight={item.totalWeight} getWeight={getWeight} />
+                                    <ThreadItem key={index} index={index} thread={thread} totalWeight={item.totalWeight} getWeight={getWeight} />
                                 ))}
                             </div>
                             <div className="absolute -z-20 bg-white">
