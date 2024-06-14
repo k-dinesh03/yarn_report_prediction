@@ -1,4 +1,3 @@
-// ThreadItem.tsx
 import React from 'react';
 import { Thread } from '../../types';
 
